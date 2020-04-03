@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="all">
+    <div class="main">
+        <h1>Border-Radius Preview</h1>
+        <div class="top">
+            <input oninput="nice(this)" autocomplete="off" class="border-top-left-radius"type="number">
+            <input oninput="nice(this)" autocomplete="off" class="border-top-right-radius"type="number">
+        </div>
+        <div>
+            <div class="preview">
+                <div class="box">
+
+                    <textarea class="code" autocomplete="off"></textarea>
+                    <button onclick="copy()">Copy text</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <input oninput="nice(this)" autocomplete="off" class="border-bottom-left-radius"type="number">
+            <input oninput="nice(this)" autocomplete="off" class="border-bottom-right-radius" type="number">
+        </div>
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
